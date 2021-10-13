@@ -23,6 +23,9 @@ export const Tittle2 = styled.h2`
   text-align: center;
 
   color: #52575d;
+  padding: 0 4.8rem;
+
+  margin-bottom: ${(props) => `${props.mb}rem`};
 `;
 
 export const Tittle3 = styled.h3`
@@ -47,5 +50,5 @@ export const Paragraph = styled.p`
   color: rgba(82, 87, 93, 0.7);
 
   padding: 0 3rem;
-  margin-bottom: 4.9rem;
+  margin-bottom: ${(props) => `${props.mb}rem`};
 `;

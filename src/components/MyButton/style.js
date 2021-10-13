@@ -15,5 +15,5 @@ export const MyButton = styled.button`
   background: ${(props) => (props.isIos === true ? ' #26BAA4' : '#6173FF')};
 
   color: #ffffff;
-  margin-bottom: 2.6rem;
+  margin-bottom: ${(props) => `${props.mb}rem`};
 `;
