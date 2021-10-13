@@ -1,11 +1,12 @@
 import React from 'react';
-import { MyContent, Logo, FieldImg } from './style';
+import { MyContent, Logo, FieldImg, ImgDevices } from './style';
 import * as Typ from '../../typography';
 import { Button } from '../MyButton';
 
 //# My images
 import logo from '../../assets/images/logo.svg';
 import computer from '../../assets/images/image-computer.png';
+import devices from '../../assets/images/image-devices.png';
 
 function Content() {
   return (
@@ -53,6 +54,19 @@ function Content() {
           </Typ.Paragraph>
         </div>
       </FieldImg>
+
+      <Typ.Tittle2 mb={1.5}>Access Clipboard Anywhere</Typ.Tittle2>
+      <Typ.Paragraph mb={6.1}>
+        Whether you’re on the go, or at your computer, you can access all your
+        Clipboard snippets in a few simple clicks.
+      </Typ.Paragraph>
+
+      <ImgDevices src={devices} />
+
+      <Typ.Tittle2 mb={1.1}>Supercharge your workflow</Typ.Tittle2>
+      <Typ.Paragraph mb={8.5}>
+        We’ve got the tools to boost your productivity.
+      </Typ.Paragraph>
     </MyContent>
   );
 }

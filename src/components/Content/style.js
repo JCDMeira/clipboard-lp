@@ -19,10 +19,17 @@ export const FieldImg = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 17.4rem;
 
   img {
     width: 31.2rem;
     height: 23.732rem;
     margin-bottom: 5.568rem;
   }
+`;
+
+export const ImgDevices = styled.img`
+  width: 35rem;
+  height: 22.238rem;
+  margin-bottom: 9.262rem;
 `;
