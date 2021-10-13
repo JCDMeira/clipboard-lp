@@ -37,6 +37,7 @@ export const Tittle3 = styled.h3`
   text-align: center;
 
   color: #52575d;
+  margin-bottom: ${(props) => `${props.mb}rem`};
 `;
 
 export const Paragraph = styled.p`

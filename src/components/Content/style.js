@@ -14,3 +14,15 @@ export const Logo = styled.img`
   height: 12.5rem;
   width: 12.5rem;
 `;
+
+export const FieldImg = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 31.2rem;
+    height: 23.732rem;
+    margin-bottom: 5.568rem;
+  }
+`;
