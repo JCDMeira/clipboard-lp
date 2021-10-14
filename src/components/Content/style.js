@@ -33,3 +33,20 @@ export const ImgDevices = styled.img`
   height: 22.238rem;
   margin-bottom: 9.262rem;
 `;
+
+export const WorkFlow = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const Icon = styled.img`
+  width: ${(props) => `${props.MyWidth}rem`};
+  height: ${(props) => `${props.MyHeight}rem`};
+  margin-bottom: ${(props) => `${props.mb}rem`};
+`;
