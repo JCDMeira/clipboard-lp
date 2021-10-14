@@ -22,16 +22,26 @@ export const FieldImg = styled.div`
   margin-bottom: 17.4rem;
 
   img {
-    width: 31.2rem;
-    height: 23.732rem;
+    width: 83.2vw;
+    height: auto;
     margin-bottom: 5.668rem;
+
+    @media (min-width: 374px) {
+      width: 31.2rem;
+      height: 23.732rem;
+    }
   }
 `;
 
 export const ImgDevices = styled.img`
-  width: 35rem;
-  height: 22.238rem;
+  width: 93.33vw;
+  height: auto;
   margin-bottom: 9.262rem;
+
+  @media (min-width: 374px) {
+    width: 35rem;
+    height: 22.238rem;
+  }
 `;
 
 export const WorkFlow = styled.div`
@@ -55,5 +65,9 @@ export const Companies = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: ${(props) => `${props.mb}rem`};
+  margin-bottom: 0;
+
+  @media (min-width: 374px) {
+    margin-bottom: ${(props) => `${props.mb}rem`};
+  }
 `;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MyButton = styled.button`
-  width: 312px;
+  width: 83.2vw;
   height: 54px;
   border-radius: 30px;
   border: none;
@@ -16,4 +16,8 @@ export const MyButton = styled.button`
 
   color: #ffffff;
   margin-bottom: 2.6rem;
+
+  @media (min-width: 374px) {
+    width: 31.2rem;
+  }
 `;
