@@ -34,16 +34,13 @@ function Content() {
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </Typ.Paragraph>
+      <Button isIos={true}>Download for iOS</Button>
+      <Button isIos={false}>Download for Mac</Button>
 
-      <Button isIos={true} mb={2.6}>
-        Download for iOS
-      </Button>
-      <Button isIos={false} mb={16}>
-        Download for Mac
-      </Button>
-
-      <Typ.Tittle2 mb={1.6}>Keep track of your snippets</Typ.Tittle2>
-      <Typ.Paragraph mb={6.6}>
+      <Typ.Tittle2 mb={1.6} mt={13.5}>
+        Keep track of your snippets
+      </Typ.Tittle2>
+      <Typ.Paragraph mb={6.4}>
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
@@ -72,7 +69,7 @@ function Content() {
       </FieldImg>
 
       <Typ.Tittle2 mb={1.5}>Access Clipboard Anywhere</Typ.Tittle2>
-      <Typ.Paragraph mb={6.1}>
+      <Typ.Paragraph mb={6}>
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.
       </Typ.Paragraph>
@@ -111,7 +108,7 @@ function Content() {
         </div>
       </WorkFlow>
 
-      <Companies mb={17.18}>
+      <Companies mb={12.68}>
         <Icon
           src={googleImg}
           alt=""
@@ -137,18 +134,14 @@ function Content() {
         <Icon src={vectorImg} alt="" MyWidth={10.5} MyHeight={2.52} mb={4.5} />
       </Companies>
 
-      <Typ.Tittle2 mb={1.7}>Clipboard for iOS and Mac OS</Typ.Tittle2>
-      <Typ.Paragraph mb={5.2}>
+      <Typ.Tittle2 mb={1.5}>Clipboard for iOS and Mac OS</Typ.Tittle2>
+      <Typ.Paragraph mb={4.8}>
         Available for free on the App Store. Download for Mac or iOS, sync with
         iCloud and you’re ready to start adding to your clipboard.
       </Typ.Paragraph>
 
-      <Button isIos={true} mb={2.6}>
-        Download for iOS
-      </Button>
-      <Button isIos={false} mb={16}>
-        Download for Mac
-      </Button>
+      <Button isIos={true}>Download for iOS</Button>
+      <Button isIos={false}>Download for Mac</Button>
     </MyContent>
   );
 }

@@ -24,7 +24,7 @@ export const FieldImg = styled.div`
   img {
     width: 31.2rem;
     height: 23.732rem;
-    margin-bottom: 5.568rem;
+    margin-bottom: 5.668rem;
   }
 `;
 

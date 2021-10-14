@@ -26,6 +26,7 @@ export const Tittle2 = styled.h2`
   padding: 0 4.8rem;
 
   margin-bottom: ${(props) => `${props.mb}rem`};
+  margin-top: ${(props) => `${props.mt}rem`};
 `;
 
 export const Tittle3 = styled.h3`
