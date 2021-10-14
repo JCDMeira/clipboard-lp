@@ -20,4 +20,11 @@ export const MyButton = styled.button`
   @media (min-width: 374px) {
     width: 31.2rem;
   }
+
+  @media (min-width: 1200px) {
+    width: 22.7rem;
+    height: 5.4rem;
+    margin-right: 1.2rem;
+    margin-left: 0.7rem;
+  }
 `;

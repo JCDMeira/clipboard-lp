@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   MyContent,
+  FieldButton,
   Logo,
   FieldImg,
   ImgDevices,
@@ -34,10 +35,13 @@ function Content() {
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </Typ.Paragraph>
-      <Button isIos={true}>Download for iOS</Button>
-      <Button isIos={false}>Download for Mac</Button>
 
-      <Typ.Tittle2 mb={1.6} mt={13.5}>
+      <FieldButton>
+        <Button isIos={true}>Download for iOS</Button>
+        <Button isIos={false}>Download for Mac</Button>
+      </FieldButton>
+
+      <Typ.Tittle2 mb={1.6} mt={13.5} mbm={2} mtm={12.5}>
         Keep track of your snippets
       </Typ.Tittle2>
       <Typ.Paragraph mb={6.4}>

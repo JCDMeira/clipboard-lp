@@ -13,6 +13,21 @@ export const Logo = styled.img`
   margin-bottom: 6.5rem;
   height: 12.5rem;
   width: 12.5rem;
+
+  @media (min-width: 1200px) {
+    margin-top: 13.2rem;
+    margin-bottom: 5.9rem;
+  }
+`;
+
+export const FieldButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 `;
 
 export const FieldImg = styled.div`

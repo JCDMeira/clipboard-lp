@@ -4,14 +4,19 @@ export const Tittle1 = styled.h1`
   font-family: Bai Jamjuree;
   font-style: normal;
   font-weight: 600;
-  font-size: 31px;
-  line-height: 40px;
+  font-size: 3.1rem;
+  line-height: 4rem;
   text-align: center;
 
   color: #52575d;
 
   padding: 0 2.9rem 0 3rem;
   margin-bottom: 1.5rem;
+
+  @media (min-width: 1200px) {
+    font-size: 4.44rem;
+    line-height: 5.6rem;
+  }
 `;
 
 export const Tittle2 = styled.h2`
@@ -27,6 +32,13 @@ export const Tittle2 = styled.h2`
 
   margin-bottom: ${(props) => `${props.mb}rem`};
   margin-top: ${(props) => `${props.mt}rem`};
+
+  @media (min-width: 1200px) {
+    font-size: 3.49rem;
+    line-height: 4.4rem;
+    margin-bottom: ${(props) => `${props.mbm}rem`};
+    margin-top: ${(props) => `${props.mtm}rem`};
+  }
 `;
 
 export const Tittle3 = styled.h3`
@@ -39,6 +51,11 @@ export const Tittle3 = styled.h3`
 
   color: #52575d;
   margin-bottom: ${(props) => `${props.mb}rem`};
+
+  @media (min-width: 1200px) {
+    font-size: 2.3rem;
+    line-height: 2.9rem;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -53,4 +70,10 @@ export const Paragraph = styled.p`
 
   padding: 0 3rem;
   margin-bottom: ${(props) => `${props.mb}rem`};
+
+  @media (min-width: 1200px) {
+    font-size: 1.83rem;
+    line-height: 3rem;
+    padding: 0 36.3rem;
+  }
 `;
