@@ -1,8 +1,9 @@
 import React from 'react';
 import { Content } from './components/Content';
-import { GlobalStyled, Conteiner, MyBg, Footer } from './global';
+import { GlobalStyled, Conteiner, MyBg } from './global';
 import bgMobile from './assets/images/bg-header-mobile.png';
 import bgDesktop from './assets/images/bg-header-desktop.png';
+import { Footer } from './components/Footer';
 
 function App() {
   const deviceWidth = window.screen.width;

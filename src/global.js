@@ -24,9 +24,3 @@ export const MyBg = styled.img`
   left: 0;
   width: 100%;
 `;
-
-export const Footer = styled.div`
-  width: 100%;
-  height: 50.1rem;
-  background: red;
-`;
