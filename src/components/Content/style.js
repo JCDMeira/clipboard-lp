@@ -50,3 +50,10 @@ export const Icon = styled.img`
   height: ${(props) => `${props.MyHeight}rem`};
   margin-bottom: ${(props) => `${props.mb}rem`};
 `;
+
+export const Companies = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: ${(props) => `${props.mb}rem`};
+`;

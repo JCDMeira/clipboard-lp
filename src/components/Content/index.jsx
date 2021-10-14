@@ -1,5 +1,13 @@
 import React from 'react';
-import { MyContent, Logo, FieldImg, ImgDevices, WorkFlow, Icon } from './style';
+import {
+  MyContent,
+  Logo,
+  FieldImg,
+  ImgDevices,
+  WorkFlow,
+  Icon,
+  Companies,
+} from './style';
 import * as Typ from '../../typography';
 import { Button } from '../MyButton';
 
@@ -9,7 +17,12 @@ import computer from '../../assets/images/image-computer.png';
 import devices from '../../assets/images/image-devices.png';
 import blacklist from '../../assets/images/icon-blacklist.svg';
 import text from '../../assets/images/icon-text.svg';
-import previw from '../../assets/images/icon-preview.svg';
+import preview from '../../assets/images/icon-preview.svg';
+import googleImg from '../../assets/images/logo-google.png';
+import ibmImg from '../../assets/images/logo-ibm.png';
+import microsoftImg from '../../assets/images/logo-microsoft.png';
+import hewlettImg from '../../assets/images/logo-hp.png';
+import vectorImg from '../../assets/images/logo-vector-graphics.png';
 
 function Content() {
   return (
@@ -90,13 +103,52 @@ function Content() {
         </div>
 
         <div>
-          <Icon src={previw} alt="" MyWidth={5} MyHeight={3.2} mb={4.5} />
+          <Icon src={preview} alt="" MyWidth={5} MyHeight={3.2} mb={4.5} />
           <Typ.Tittle3 mb={1.9}>Sneak preview</Typ.Tittle3>
-          <Typ.Paragraph mb={5.6}>
+          <Typ.Paragraph mb={12.7}>
             Quick preview of all snippets on your Clipboard for easy access.
           </Typ.Paragraph>
         </div>
       </WorkFlow>
+
+      <Companies mb={17.18}>
+        <Icon
+          src={googleImg}
+          alt=""
+          MyWidth={14.2}
+          MyHeight={4.217}
+          mb={6.783}
+        />
+        <Icon src={ibmImg} alt="" MyWidth={11.8} MyHeight={4.329} mb={6.771} />
+        <Icon
+          src={microsoftImg}
+          alt=""
+          MyWidth={13.6}
+          MyHeight={2.957}
+          mb={6.243}
+        />
+        <Icon
+          src={hewlettImg}
+          alt=""
+          MyWidth={11.5}
+          MyHeight={4.77}
+          mb={5.53}
+        />
+        <Icon src={vectorImg} alt="" MyWidth={10.5} MyHeight={2.52} mb={4.5} />
+      </Companies>
+
+      <Typ.Tittle2 mb={1.7}>Clipboard for iOS and Mac OS</Typ.Tittle2>
+      <Typ.Paragraph mb={5.2}>
+        Available for free on the App Store. Download for Mac or iOS, sync with
+        iCloud and you’re ready to start adding to your clipboard.
+      </Typ.Paragraph>
+
+      <Button isIos={true} mb={2.6}>
+        Download for iOS
+      </Button>
+      <Button isIos={false} mb={16}>
+        Download for Mac
+      </Button>
     </MyContent>
   );
 }
