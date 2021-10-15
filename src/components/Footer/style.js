@@ -90,10 +90,8 @@ export const FooterIcon = styled.div`
   align-items: center;
   margin-top: 1.9rem;
 
-  filter: invert(0.65) sepia(0.799) saturate(3.6) hue-rotate(121deg);
   img {
     :hover {
-      /* color: #26bba4; */
       filter: invert(0.65) sepia(0.799) saturate(3.6) hue-rotate(121deg);
     }
   }
