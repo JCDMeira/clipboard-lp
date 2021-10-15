@@ -44,7 +44,7 @@ function Content() {
       <Typ.Tittle2 mb={1.6} mt={13.5} mbm={2} mtm={12.5}>
         Keep track of your snippets
       </Typ.Tittle2>
-      <Typ.Paragraph mb={6.4}>
+      <Typ.Paragraph mb={6.4} mbm={8.3}>
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
@@ -53,18 +53,22 @@ function Content() {
       <FieldImg>
         <img src={computer} alt="" />
         <div>
-          <Typ.Tittle3 mb={1.1}>Quick Search</Typ.Tittle3>
-          <Typ.Paragraph mb={5}>
+          <Typ.Tittle3 mb={1.1} mbm={0.7}>
+            Quick Search
+          </Typ.Tittle3>
+          <Typ.Paragraph mb={5} mbm={5.6}>
             Easily search your snippets by content, category, web address,
             application, and more.
           </Typ.Paragraph>
 
           <Typ.Tittle3 mb={1}>iCloud Sync</Typ.Tittle3>
-          <Typ.Paragraph mb={4.8}>
+          <Typ.Paragraph mb={4.8} mbm={5.6}>
             Instantly saves and syncs snippets across all your devices.
           </Typ.Paragraph>
 
-          <Typ.Tittle3 mb={1}>Complete History</Typ.Tittle3>
+          <Typ.Tittle3 mb={1} mbm={0.8}>
+            Complete History
+          </Typ.Tittle3>
           <Typ.Paragraph mb={1.1}>
             Retrieve any snippets from the first moment you started using the
             app.
@@ -72,7 +76,9 @@ function Content() {
         </div>
       </FieldImg>
 
-      <Typ.Tittle2 mb={1.5}>Access Clipboard Anywhere</Typ.Tittle2>
+      <Typ.Tittle2 mb={1.5} mbm={2.1}>
+        Access Clipboard <span>anywhere</span>
+      </Typ.Tittle2>
       <Typ.Paragraph mb={6}>
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.

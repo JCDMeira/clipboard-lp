@@ -33,11 +33,19 @@ export const Tittle2 = styled.h2`
   margin-bottom: ${(props) => `${props.mb}rem`};
   margin-top: ${(props) => `${props.mt}rem`};
 
+  span {
+    text-transform: capitalize;
+  }
+
   @media (min-width: 1200px) {
     font-size: 3.49rem;
     line-height: 4.4rem;
     margin-bottom: ${(props) => `${props.mbm}rem`};
     margin-top: ${(props) => `${props.mtm}rem`};
+
+    span {
+      text-transform: none;
+    }
   }
 `;
 
@@ -55,6 +63,7 @@ export const Tittle3 = styled.h3`
   @media (min-width: 1200px) {
     font-size: 2.3rem;
     line-height: 2.9rem;
+    margin-bottom: ${(props) => `${props.mbm}rem`};
   }
 `;
 
@@ -75,5 +84,6 @@ export const Paragraph = styled.p`
     font-size: 1.83rem;
     line-height: 3rem;
     padding: 0 36.3rem;
+    margin-bottom: ${(props) => `${props.mbm}rem`};
   }
 `;

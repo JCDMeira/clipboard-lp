@@ -46,6 +46,37 @@ export const FieldImg = styled.div`
       height: 23.732rem;
     }
   }
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: initial;
+    align-items: initial;
+    margin-bottom: 9.6rem;
+
+    img {
+      width: 749px;
+      height: 569px;
+      position: relative;
+      margin-left: -3.1rem;
+      margin-top: -0.3rem;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: initial;
+      justify-content: initial;
+      padding: 6.6rem 25rem 0 11.3rem;
+      h3 {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+        padding: 0;
+        font-size: 16.3px;
+        line-height: 30px;
+      }
+    }
+  }
 `;
 
 export const ImgDevices = styled.img`
