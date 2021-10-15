@@ -26,9 +26,15 @@ function Footer() {
         </div>
       </FooterList>
       <FooterIcon>
-        <img src={faceIcon} alt="" />
-        <img src={twitterIcon} alt="" />
-        <img src={instaIcon} alt="" />
+        <a href="#">
+          <img src={faceIcon} alt="" />
+        </a>
+        <a href="#">
+          <img src={twitterIcon} alt="" />
+        </a>
+        <a href="#">
+          <img src={instaIcon} alt="" />
+        </a>
       </FooterIcon>
     </MyFooter>
   );

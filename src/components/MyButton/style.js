@@ -17,6 +17,10 @@ export const MyButton = styled.button`
   color: #ffffff;
   margin-bottom: 2.6rem;
 
+  :hover {
+    background: ${(props) => (props.isIos === true ? ' #5DCCBB' : '#8896FF')};
+  }
+
   @media (min-width: 374px) {
     width: 31.2rem;
   }
