@@ -6,6 +6,9 @@ export const MyContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* @media (min-width: 1200px) {
+    height: 365.9rem;
+  } */
 `;
 
 export const Logo = styled.img`
@@ -88,16 +91,44 @@ export const ImgDevices = styled.img`
     width: 35rem;
     height: 22.238rem;
   }
+
+  @media (min-width: 1200px) {
+    width: 90.5rem;
+    height: 57.4rem;
+    margin-bottom: 7.162rem;
+  }
 `;
 
 export const WorkFlow = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   div {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 112.1rem;
+    margin-bottom: 16.5rem;
+    div {
+      width: 36.3rem;
+      height: 21rem;
+      align-items: center;
+      justify-content: initial;
+      h3 {
+        padding: 0;
+      }
+      p {
+        padding: 0;
+        font-size: 16.3px;
+        line-height: 30px;
+      }
+    }
   }
 `;
 
@@ -105,6 +136,10 @@ export const Icon = styled.img`
   width: ${(props) => `${props.MyWidth}rem`};
   height: ${(props) => `${props.MyHeight}rem`};
   margin-bottom: ${(props) => `${props.mb}rem`};
+
+  @media (min-width: 1200px) {
+    margin-bottom: ${(props) => `${props.mbm}rem`};
+  }
 `;
 
 export const Companies = styled.div`

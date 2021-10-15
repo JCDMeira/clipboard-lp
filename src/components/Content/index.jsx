@@ -79,22 +79,33 @@ function Content() {
       <Typ.Tittle2 mb={1.5} mbm={2.1}>
         Access Clipboard <span>anywhere</span>
       </Typ.Tittle2>
-      <Typ.Paragraph mb={6}>
+      <Typ.Paragraph mb={6} mbm={10}>
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.
       </Typ.Paragraph>
 
       <ImgDevices src={devices} />
 
-      <Typ.Tittle2 mb={1.1}>Supercharge your workflow</Typ.Tittle2>
-      <Typ.Paragraph mb={8.8}>
+      <Typ.Tittle2 mb={1.1} mbm={2}>
+        Supercharge your workflow
+      </Typ.Tittle2>
+      <Typ.Paragraph mb={8.8} mbm={7.4}>
         We’ve got the tools to boost your productivity.
       </Typ.Paragraph>
 
       <WorkFlow>
         <div>
-          <Icon src={blacklist} alt="" MyWidth={4.4} MyHeight={4} mb={4.2} />
-          <Typ.Tittle3 mb={1.9}>Create blacklists</Typ.Tittle3>
+          <Icon
+            src={blacklist}
+            alt=""
+            MyWidth={4.4}
+            MyHeight={4}
+            mb={4.2}
+            mbm={3.8}
+          />
+          <Typ.Tittle3 mb={1.9} mbm={1.7}>
+            Create blacklists
+          </Typ.Tittle3>
           <Typ.Paragraph mb={5.5}>
             Ensure sensitive information never makes its way to your clipboard
             by excluding certain sources.
@@ -102,16 +113,34 @@ function Content() {
         </div>
 
         <div>
-          <Icon src={text} alt="" MyWidth={3.6} MyHeight={3.2} mb={4.5} />
-          <Typ.Tittle3 mb={1.9}>Plain text snippets</Typ.Tittle3>
+          <Icon
+            src={text}
+            alt=""
+            MyWidth={3.6}
+            MyHeight={3.2}
+            mb={4.5}
+            mbm={4.6}
+          />
+          <Typ.Tittle3 mb={1.9} mbm={1.5}>
+            Plain text snippets
+          </Typ.Tittle3>
           <Typ.Paragraph mb={5.6}>
             Remove unwanted formatting from copied text for a consistent look.
           </Typ.Paragraph>
         </div>
 
         <div>
-          <Icon src={preview} alt="" MyWidth={5} MyHeight={3.2} mb={4.5} />
-          <Typ.Tittle3 mb={1.9}>Sneak preview</Typ.Tittle3>
+          <Icon
+            src={preview}
+            alt=""
+            MyWidth={5}
+            MyHeight={3.2}
+            mb={4.5}
+            mbm={4.6}
+          />
+          <Typ.Tittle3 mb={1.9} mbm={1.7}>
+            Sneak preview
+          </Typ.Tittle3>
           <Typ.Paragraph mb={12.7}>
             Quick preview of all snippets on your Clipboard for easy access.
           </Typ.Paragraph>
