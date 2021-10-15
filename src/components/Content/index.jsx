@@ -153,14 +153,26 @@ function Content() {
           alt=""
           MyWidth={14.2}
           MyHeight={4.217}
+          MyWidthDesk={16.5}
+          MyHeightDesk={4.9}
           mb={6.783}
         />
-        <Icon src={ibmImg} alt="" MyWidth={11.8} MyHeight={4.329} mb={6.771} />
+        <Icon
+          src={ibmImg}
+          alt=""
+          MyWidth={11.8}
+          MyHeight={4.329}
+          mb={6.771}
+          MyWidthDesk={13.9}
+          MyHeightDesk={5.1}
+        />
         <Icon
           src={microsoftImg}
           alt=""
           MyWidth={13.6}
           MyHeight={2.957}
+          MyWidthDesk={16.1}
+          MyHeightDesk={3.5}
           mb={6.243}
         />
         <Icon
@@ -168,19 +180,33 @@ function Content() {
           alt=""
           MyWidth={11.5}
           MyHeight={4.77}
+          MyWidthDesk={13.6}
+          MyHeightDesk={5.6}
           mb={5.53}
         />
-        <Icon src={vectorImg} alt="" MyWidth={10.5} MyHeight={2.52} mb={4.5} />
+        <Icon
+          src={vectorImg}
+          alt=""
+          MyWidth={10.5}
+          MyHeight={2.52}
+          mb={4.5}
+          MyWidthDesk={12.5}
+          MyHeightDesk={3}
+        />
       </Companies>
 
-      <Typ.Tittle2 mb={1.5}>Clipboard for iOS and Mac OS</Typ.Tittle2>
+      <Typ.Tittle2 mb={1.5} mbm={2.1}>
+        Clipboard for iOS and Mac OS
+      </Typ.Tittle2>
       <Typ.Paragraph mb={4.8}>
         Available for free on the App Store. Download for Mac or iOS, sync with
         iCloud and you’re ready to start adding to your clipboard.
       </Typ.Paragraph>
 
-      <Button isIos={true}>Download for iOS</Button>
-      <Button isIos={false}>Download for Mac</Button>
+      <FieldButton>
+        <Button isIos={true}>Download for iOS</Button>
+        <Button isIos={false}>Download for Mac</Button>
+      </FieldButton>
     </MyContent>
   );
 }

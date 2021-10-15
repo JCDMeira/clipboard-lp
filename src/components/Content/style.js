@@ -6,9 +6,9 @@ export const MyContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* @media (min-width: 1200px) {
+  @media (min-width: 1200px) {
     height: 365.9rem;
-  } */
+  }
 `;
 
 export const Logo = styled.img`
@@ -114,7 +114,7 @@ export const WorkFlow = styled.div`
     flex-direction: row;
     justify-content: space-between;
     width: 112.1rem;
-    margin-bottom: 16.5rem;
+    margin-bottom: 19.5rem;
     div {
       width: 36.3rem;
       height: 21rem;
@@ -139,6 +139,8 @@ export const Icon = styled.img`
 
   @media (min-width: 1200px) {
     margin-bottom: ${(props) => `${props.mbm}rem`};
+    width: ${(props) => `${props.MyWidthDesk}rem`};
+    height: ${(props) => `${props.MyHeightDesk}rem`};
   }
 `;
 
@@ -150,5 +152,13 @@ export const Companies = styled.div`
 
   @media (min-width: 374px) {
     margin-bottom: ${(props) => `${props.mb}rem`};
+  }
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 111rem;
+    height: 5.6rem;
+    margin-bottom: 12.58rem;
   }
 `;

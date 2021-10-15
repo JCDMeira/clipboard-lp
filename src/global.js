@@ -16,6 +16,9 @@ html{
 export const Conteiner = styled.div`
   width: 100%;
   height: 520.678rem;
+  @media (min-width: 1200px) {
+    height: 380.8rem;
+  }
 `;
 
 export const MyBg = styled.img`
