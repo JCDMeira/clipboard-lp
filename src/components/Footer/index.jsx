@@ -13,16 +13,16 @@ function Footer() {
       <MyLogo2 src={logo2} alt="" />
       <FooterList>
         <div>
-          <p>FAQs</p>
-          <p>Contact Us</p>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
         </div>
 
         <div>
-          <p>Privacy Policy</p>
-          <p> Press Kit</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#"> Press Kit</a>
         </div>
         <div>
-          <p> Install Guide</p>
+          <a href="#"> Install Guide</a>
         </div>
       </FooterList>
       <FooterIcon>
