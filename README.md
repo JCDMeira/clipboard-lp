@@ -27,7 +27,6 @@ Users should be able to:
 
 ## Screenshot
 
-<!--
 ### Mobile design
 
 <p  align="center">
@@ -42,7 +41,7 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-### result of my work
+<!--### result of my work
 
 <p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
 
@@ -58,43 +57,26 @@ Users should be able to:
 
 ### Built with
 
-- CSS Grid
 - Mobile-first workflow
 - [Styled components](https://styled-components.com) - CSS in js with stiled components
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-<!--
-Using the grid template areas to define occupied spaces with an alias
+Using filters to give color change effect on SVG image in hover state. With the following set of values the color is very close to the color used in the logo.
 
-```CSS
-  .content {
-  display: grid;
-  gap: 0;
-  grid-template-areas:
-    'field1'
-    'field2'
-    'field3';
-}
+```JS
+import styled from 'styled-components';
 
-.field1 {
-  grid-area: field1;
-}
-.field2 {
-  grid-area: field2;
-}
-.field3 {
-  grid-area: field3;
-}
-@media (min-width: 900px) {
-  .content {
-    grid-template-areas:
-      'field1 field1'
-      'field2 field3';
+export const FooterIcon = styled.div`
+  img {
+    :hover {
+      filter: invert(0.65) sepia(0.799) saturate(3.6) hue-rotate(121deg);
+    }
   }
-}
-``` -->
+`;
+
+```
 
 ### Useful resources
 
