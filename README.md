@@ -82,6 +82,8 @@ export const FooterIcon = styled.div`
 - [my figma design](https://www.figma.com/file/Pqbn8wwowh2B6lqU5JmslQ/11-Clipboard-lp?node-id=0%3A1) - My figma design for help anyone who wants to build this challenge.
 - [CSS units conversor - px to VH/VW/REM](https://it-news.pw/pxtovh/) - CSS units conversor .
 - [Converting Colors](https://convertingcolors.com) - HSL for all color systems.
+- [SVG styles](https://qastack.com.br/programming/24933430/img-src-svg-changing-the-styles-with-css) - working with SVG.
+- [Swapping Fill Color on Image Tag SVGs](https://blog.union.io/code/2017/08/10/img-svg-fill/) - using filters to change SVG color.
 
 ## Author
 
